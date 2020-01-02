@@ -10,3 +10,25 @@ double lucky = Math.random();
 lucky *= 10;
 int luckyIndex = (int) lucky;
 System.out.print(newsOutlet[luckyIndex]);
+
+
+public double calcutaleAverage(double [] temparatures){
+int size = temperatures.length;
+double total = 0;
+for(int i=0; i<size, i++){
+total += temperatures[i];
+}
+dobule average = total/size;
+return average;
+}
+
+public double search(double[] speed) {
+int size = speed.length; ---> 7
+double min = speed[0];
+for(int i=1 ; i<size ; i++){
+if (speed[I]<min){
+min = speed[i];
+}
+}
+return min;
+}
