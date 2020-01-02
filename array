@@ -1,0 +1,12 @@
+int [] numbers ={12,1,777,3,4,0,0,121,1,-4,0,-100,2};
+System.out.print(numbers[0]);
+System.out.print(numbers[9]*numbers[12]}; ---> -8
+double [] fracNumbers = {4.0, 6.2, 3.75, 5.1, 9.99};
+double s =fracNumbers[0] + fracNumbers [3];
+
+String [] newsOutlet = {"abc", "bbc", .... };
+System.out.print(newsOutlet [2]);
+double lucky = Math.random();
+lucky *= 10;
+int luckyIndex = (int) lucky;
+System.out.print(newsOutlet[luckyIndex]);
