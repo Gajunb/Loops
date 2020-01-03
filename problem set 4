@@ -1,0 +1,37 @@
+// answer for quetion 1
+1) 80
+---------------------
+// answer for quetion 2 
+
+2) public int factorial (int n) {
+int factorial  = 1;
+for (int i = 1; i<=n; i++) {
+factorial = factorail * i;
+}
+return factorial;
+}
+------------------------
+// answer for quetion 3
+
+public int indexOfFirstOccurrence(String[] stringArray, String target)
+{
+for (int i = 0; i < stringArray.length; i++) {
+if (stringArray[i].equals(target)) {
+return i;
+}
+}
+return -1;
+}
+
+------------------------
+// answer for quetion 4
+
+public int yearsTilOneMillion(double initialBalance) {
+int years = 0;
+double balance = initialBalance;
+while (balance <1000000) {
+years++;
+balance = balance * 1.05;
+}
+return years;
+}
