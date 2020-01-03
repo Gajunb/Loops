@@ -35,3 +35,12 @@ balance = balance * 1.05;
 }
 return years;
 }
+
+
+------------------------
+// answer for quetion 5
+public void printInReverse(String[] stringArray) {
+}
+
+
+
